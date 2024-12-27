@@ -1,0 +1,8 @@
+.build/
+/generate
+/example
+*.exe
+*.o
+*.obj
+*.pdb
+*.rdi
