@@ -47,7 +47,7 @@ tWAVEFORMATEX :: struct {
     nBlockAlign:     u16;
     wBitsPerSample:  u16;
     cbSize:          u16;
-}
+} #no_padding
 
 WAVEFORMATEX :: tWAVEFORMATEX;
 
