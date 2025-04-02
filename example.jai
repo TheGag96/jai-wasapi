@@ -1,3 +1,6 @@
+// Adapted from d7samurai's very helpful Gist:
+// https://gist.github.com/d7samurai/6d24d0ba93f8c8fe6b4f02b92d4c8ce0
+
 main :: () {
     CoInitializeEx(null, xx (COINIT_MULTITHREADED | COINIT_DISABLE_OLE1DDE));
 
